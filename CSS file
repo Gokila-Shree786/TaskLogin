@@ -1,0 +1,16 @@
+.main_container{
+    background-color: rgb(109,154,196);
+}
+
+.button{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(237,85,132);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.page{
+    border-radius: 10px;
+}
