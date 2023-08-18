@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Signup page</title>
+    <link rel="stylesheet" href="Loginpage.css" />
+
+</head>
+
+<body>
+    <div class="container-fluid main_container">
+        <div class="container main_container">
+            <div class="row pt-5 pb-3">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5  mt-2 pl-5 bg-white page">
+                    <div class="row mt-5"><div class="col-lg-12"><h5>SIGN UP</h5></div> </div>
+                    <div class="row mt-3 ">
+                        <div class="col-lg-12"><label>Email</label></div>
+                        <div class="col-lg-12"><input type="email"
+                                   class="w-100 form-control" /></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-12"><label>Password</label></div>
+                        <div class="col-lg-12"><input type="password"
+                                   class="w-100 form-control" /></div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-12"><button class="button">SIGN UP</button></div>
+                    </div>
+                    <div class="row mt-5 justify-content-center">
+                        <div class="col-lg-10">
+                        <hr style="margin-top: 30px;">
+                        <p style="    margin-top: -35px;
+                        padding: 5px;
+                        text-align: center;
+                        background-color: #fff;
+                        width: 35px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border: 1px #000 solid;">OR</p>
+                    </div>
+                </div>
+                    <div class="row text-center">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            
+                            <div class="col-lg-2"> <a href="https://www.google.com"><i class="fa-brands fa-google" style="color: red; font-size: 24px;"></i></a></div>
+                             
+                             <div class="col-lg-2"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f" style="color:skyblue; font-size: 24px;"></i></a></div>
+ 
+                             <div class="col-lg-2"><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in" style="color:blue; font-size: 24px;"></i></a></div>
+                              
+                         </div>
+                        <div class="col-lg-12 mt-5 mb-3"><h5>Already a user ? <spam style="text-decoration: underline;" >LOGIN</spam></h5></div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 mt-2 bg-white page">
+                    <div class="row mt-5"><div class="col-lg-12"><h5>LOGIN</h5></div> </div>
+                  
+                    <div class="row mt-3">
+                        <div class="col-lg-12"><label>Email</label></div>
+                        <div class="col-lg-12"><input type="email"
+                                   class="w-100 form-control" /></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-12"><label>Password</label></div>
+                        <div class="col-lg-12"><input type="password"
+                                   class="w-100 form-control" /></div>
+                    </div>
+                    
+                    <div class="row mt-2">
+                        <div class="col-lg-1"> <input type="checkbox"
+                                   checked="checked"
+                                   name="Remember" /></div>
+                        <div class="col-lg-11"> Remember me ?</div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-12"><button class="button">LOGIN</button></div>
+                    </div>
+                    <div class="row mt-1">
+                        <a class="text-end">Forgot password?</a>
+                    </div>
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-lg-10 ">
+                        <hr style="margin-top: 30px;">
+                        <p style="    margin-top: -35px;
+                        padding: 5px;
+                        text-align: center;
+                        background-color: #fff;
+                        width: 35px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border: 1px #000 solid;">OR</p>
+                    </div>
+                </div>
+                    <div class="row text-center">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            
+                           <div class="col-lg-2"> <a href="https://www.google.com"><i class="fa-brands fa-google" style="color: red; font-size: 24px;"></i></a></div>
+                            
+                            <div class="col-lg-2"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f" style="color:skyblue; font-size: 24px;"></i></a></div>
+
+                            <div class="col-lg-2"><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in" style="color:blue; font-size: 24px;"></i></a></div>
+                             
+                        </div>
+                        <div class="col-lg-12 mt-3 mb-3"><h5>Need a Account? <spam style="text-decoration: underline;"><a>SIGN UP</a></spam></h5></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
